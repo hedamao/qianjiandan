@@ -1,0 +1,23 @@
+{
+  "name": "qianjiandan",
+  "version": "1.0.0",
+  "description": "钱简单",
+  "main": "fis-conf.js",
+  "dependencies": {
+    "fis3": "^3.4.33"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedamao/qianjiandan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hedamao/qianjiandan/issues"
+  },
+  "homepage": "https://github.com/hedamao/qianjiandan#readme"
+}
