@@ -8,11 +8,16 @@ fis.match('/admin-html/*.html', {
 
 fis.match('*.js', {
     optimizer: fis.plugin('uglify-js'),
-    release: 'dist/$0'
+    release: '$0'
 });
 
 fis.match('*.css', {
     useSprite: true,
     optimizer: fis.plugin('clean-css'),
-    release: 'dist/$0'
+    release: '$0'
+});
+
+fis.match('/static/images/(*.{png,gif,jpg})', {
+    //发布到/static/pic/xxx目录下
+    release: '$0'
 });
